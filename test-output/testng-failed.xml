@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="4" guice-stage="DEVELOPMENT" name="Failed suite [FirstTestSuite]" parallel="tests">
+  <listeners>
+    <listener class-name="automationFramework.dice.base.TestListener"/>
+  </listeners>
+  <test name="LoginTest-FF(failed)" parallel="tests">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="automationFramework.dice.com.HomePageTest">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="searchHomePageTest"/>
+          <include name="tearDownMethod"/>
+          <include name="setupMethod"/>
+        </methods>
+      </class> <!-- automationFramework.dice.com.HomePageTest -->
+    </classes>
+  </test> <!-- LoginTest-FF(failed) -->
+  <test name="LoginTest-CH(failed)" parallel="tests">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="automationFramework.dice.com.HomePageTest">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="searchHomePageTest"/>
+          <include name="tearDownMethod"/>
+          <include name="setupMethod"/>
+        </methods>
+      </class> <!-- automationFramework.dice.com.HomePageTest -->
+    </classes>
+  </test> <!-- LoginTest-CH(failed) -->
+</suite> <!-- Failed suite [FirstTestSuite] -->

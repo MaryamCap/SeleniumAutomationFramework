@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="4" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="FirstTestSuite" duration-ms="28537" started-at="2018-01-31T16:47:21Z" finished-at="2018-01-31T16:47:49Z">
+    <groups>
+    </groups>
+    <test name="LoginTest-CH" duration-ms="16993" started-at="2018-01-31T16:47:21Z" finished-at="2018-01-31T16:47:38Z">
+      <class name="automationFramework.dice.com.HomePageTest">
+        <test-method status="PASS" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:automationFramework.dice.com.HomePageTest@204f30ec]" name="setUpClass" is-config="true" duration-ms="119" started-at="2018-01-31T10:47:21Z" finished-at="2018-01-31T10:47:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@52a86356]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="setupMethod(java.lang.String)[pri:0, instance:automationFramework.dice.com.HomePageTest@204f30ec]" name="setupMethod" is-config="true" duration-ms="5177" started-at="2018-01-31T10:47:21Z" finished-at="2018-01-31T10:47:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method status="PASS" signature="searchHomePageTest()[pri:0, instance:automationFramework.dice.com.HomePageTest@204f30ec]" name="searchHomePageTest" duration-ms="10132" started-at="2018-01-31T10:47:26Z" finished-at="2018-01-31T10:47:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHomePageTest -->
+        <test-method status="PASS" signature="tearDownMethod()[pri:0, instance:automationFramework.dice.com.HomePageTest@204f30ec]" name="tearDownMethod" is-config="true" duration-ms="1535" started-at="2018-01-31T10:47:36Z" finished-at="2018-01-31T10:47:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+      </class> <!-- automationFramework.dice.com.HomePageTest -->
+    </test> <!-- LoginTest-CH -->
+    <test name="LoginTest-FF" duration-ms="28537" started-at="2018-01-31T16:47:21Z" finished-at="2018-01-31T16:47:49Z">
+      <class name="automationFramework.dice.com.HomePageTest">
+        <test-method status="PASS" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:automationFramework.dice.com.HomePageTest@6f7fd0e6]" name="setUpClass" is-config="true" duration-ms="119" started-at="2018-01-31T10:47:21Z" finished-at="2018-01-31T10:47:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@5ce81285]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="setupMethod(java.lang.String)[pri:0, instance:automationFramework.dice.com.HomePageTest@6f7fd0e6]" name="setupMethod" is-config="true" duration-ms="20023" started-at="2018-01-31T10:47:21Z" finished-at="2018-01-31T10:47:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method status="PASS" signature="contactUsTest(java.util.Map)[pri:0, instance:automationFramework.dice.com.HomePageTest@6f7fd0e6]" name="contactUsTest" duration-ms="8080" started-at="2018-01-31T10:47:41Z" data-provider="CsvDataProvider" finished-at="2018-01-31T10:47:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{firstName=test, lastName=test, stateName=Illinois, companyName=test, postalCode=60611, email=test@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactUsTest -->
+        <test-method status="PASS" signature="tearDownMethod()[pri:0, instance:automationFramework.dice.com.HomePageTest@6f7fd0e6]" name="tearDownMethod" is-config="true" duration-ms="286" started-at="2018-01-31T10:47:49Z" finished-at="2018-01-31T10:47:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+      </class> <!-- automationFramework.dice.com.HomePageTest -->
+    </test> <!-- LoginTest-FF -->
+  </suite> <!-- FirstTestSuite -->
+</testng-results>
