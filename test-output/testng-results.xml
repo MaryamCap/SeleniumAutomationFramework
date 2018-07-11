@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="2" total="4" passed="2">
+<testng-results skipped="1" failed="0" ignored="0" total="5" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="FirstTestSuite" duration-ms="28537" started-at="2018-01-31T16:47:21Z" finished-at="2018-01-31T16:47:49Z">
+  <suite name="Default suite" duration-ms="55527" started-at="2018-07-11T18:18:31Z" finished-at="2018-07-11T18:19:26Z">
     <groups>
     </groups>
-    <test name="LoginTest-CH" duration-ms="16993" started-at="2018-01-31T16:47:21Z" finished-at="2018-01-31T16:47:38Z">
+    <test name="Default test" duration-ms="55527" started-at="2018-07-11T18:18:31Z" finished-at="2018-07-11T18:19:26Z">
       <class name="automationFramework.dice.com.HomePageTest">
-        <test-method status="PASS" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:automationFramework.dice.com.HomePageTest@204f30ec]" name="setUpClass" is-config="true" duration-ms="119" started-at="2018-01-31T10:47:21Z" finished-at="2018-01-31T10:47:21Z">
+        <test-method status="PASS" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:automationFramework.dice.com.HomePageTest@6fd02e5]" name="setUpClass" is-config="true" duration-ms="76" started-at="2018-07-11T13:18:31Z" finished-at="2018-07-11T13:18:31Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@52a86356]]>
+                <![CDATA[org.testng.TestRunner@59d4cd39]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="setupMethod(java.lang.String)[pri:0, instance:automationFramework.dice.com.HomePageTest@204f30ec]" name="setupMethod" is-config="true" duration-ms="5177" started-at="2018-01-31T10:47:21Z" finished-at="2018-01-31T10:47:26Z">
+        <test-method status="PASS" signature="setupMethod(java.lang.String)[pri:0, instance:automationFramework.dice.com.HomePageTest@6fd02e5]" name="setupMethod" is-config="true" duration-ms="6680" started-at="2018-07-11T13:18:31Z" finished-at="2018-07-11T13:18:38Z">
           <params>
             <param index="0">
               <value>
@@ -29,41 +29,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupMethod -->
-        <test-method status="PASS" signature="searchHomePageTest()[pri:0, instance:automationFramework.dice.com.HomePageTest@204f30ec]" name="searchHomePageTest" duration-ms="10132" started-at="2018-01-31T10:47:26Z" finished-at="2018-01-31T10:47:36Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- searchHomePageTest -->
-        <test-method status="PASS" signature="tearDownMethod()[pri:0, instance:automationFramework.dice.com.HomePageTest@204f30ec]" name="tearDownMethod" is-config="true" duration-ms="1535" started-at="2018-01-31T10:47:36Z" finished-at="2018-01-31T10:47:38Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownMethod -->
-      </class> <!-- automationFramework.dice.com.HomePageTest -->
-    </test> <!-- LoginTest-CH -->
-    <test name="LoginTest-FF" duration-ms="28537" started-at="2018-01-31T16:47:21Z" finished-at="2018-01-31T16:47:49Z">
-      <class name="automationFramework.dice.com.HomePageTest">
-        <test-method status="PASS" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:automationFramework.dice.com.HomePageTest@6f7fd0e6]" name="setUpClass" is-config="true" duration-ms="119" started-at="2018-01-31T10:47:21Z" finished-at="2018-01-31T10:47:21Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@5ce81285]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="setupMethod(java.lang.String)[pri:0, instance:automationFramework.dice.com.HomePageTest@6f7fd0e6]" name="setupMethod" is-config="true" duration-ms="20023" started-at="2018-01-31T10:47:21Z" finished-at="2018-01-31T10:47:41Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setupMethod -->
-        <test-method status="PASS" signature="contactUsTest(java.util.Map)[pri:0, instance:automationFramework.dice.com.HomePageTest@6f7fd0e6]" name="contactUsTest" duration-ms="8080" started-at="2018-01-31T10:47:41Z" data-provider="CsvDataProvider" finished-at="2018-01-31T10:47:49Z">
+        <test-method status="PASS" signature="contactUsTest(java.util.Map)[pri:0, instance:automationFramework.dice.com.HomePageTest@6fd02e5]" name="contactUsTest" duration-ms="9587" started-at="2018-07-11T13:18:38Z" data-provider="CsvDataProvider" finished-at="2018-07-11T13:18:47Z">
           <params>
             <param index="0">
               <value>
@@ -74,11 +40,156 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- contactUsTest -->
-        <test-method status="PASS" signature="tearDownMethod()[pri:0, instance:automationFramework.dice.com.HomePageTest@6f7fd0e6]" name="tearDownMethod" is-config="true" duration-ms="286" started-at="2018-01-31T10:47:49Z" finished-at="2018-01-31T10:47:49Z">
+        <test-method status="PASS" signature="tearDownMethod()[pri:0, instance:automationFramework.dice.com.HomePageTest@6fd02e5]" name="tearDownMethod" is-config="true" duration-ms="2755" started-at="2018-07-11T13:18:47Z" finished-at="2018-07-11T13:18:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method status="PASS" signature="setupMethod(java.lang.String)[pri:0, instance:automationFramework.dice.com.HomePageTest@6fd02e5]" name="setupMethod" is-config="true" duration-ms="4778" started-at="2018-07-11T13:18:50Z" finished-at="2018-07-11T13:18:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method status="PASS" signature="searchHomePageTest()[pri:0, instance:automationFramework.dice.com.HomePageTest@6fd02e5]" name="searchHomePageTest" duration-ms="5555" started-at="2018-07-11T13:18:55Z" finished-at="2018-07-11T13:19:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHomePageTest -->
+        <test-method status="PASS" signature="tearDownMethod()[pri:0, instance:automationFramework.dice.com.HomePageTest@6fd02e5]" name="tearDownMethod" is-config="true" duration-ms="1339" started-at="2018-07-11T13:19:00Z" finished-at="2018-07-11T13:19:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownMethod -->
       </class> <!-- automationFramework.dice.com.HomePageTest -->
-    </test> <!-- LoginTest-FF -->
-  </suite> <!-- FirstTestSuite -->
+      <class name="automationFramework.dice.com.LoginTest">
+        <test-method status="PASS" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:automationFramework.dice.com.LoginTest@5bcab519]" name="setUpClass" is-config="true" duration-ms="1" started-at="2018-07-11T13:19:02Z" finished-at="2018-07-11T13:19:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@59d4cd39]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="SKIP" signature="positiveLoginTest(java.util.Map)[pri:0, instance:automationFramework.dice.com.LoginTest@5bcab519]" name="positiveLoginTest" duration-ms="0" started-at="2018-07-11T13:19:02Z" data-provider="CsvDataProvider" finished-at="2018-07-11T13:19:02Z">
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[java.lang.RuntimeException: File src\test\resources\test_data\LoginTest_positiveLoginTest.csv was not found.
+[Ljava.lang.StackTraceElement;@3e44f2a5]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: java.lang.RuntimeException: File src\test\resources\test_data\LoginTest_positiveLoginTest.csv was not found.
+[Ljava.lang.StackTraceElement;@3e44f2a5
+	at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:49)
+	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:115)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:509)
+	at org.testng.internal.Invoker.handleParameters(Invoker.java:1308)
+	at org.testng.internal.Invoker.createParameters(Invoker.java:1036)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1126)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.lang.RuntimeException: File src\test\resources\test_data\LoginTest_positiveLoginTest.csv was not found.
+[Ljava.lang.StackTraceElement;@3e44f2a5
+	at automationFramework.dice.base.CsvDataProvider.provideData(CsvDataProvider.java:43)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:55)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:45)
+	... 22 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- positiveLoginTest -->
+      </class> <!-- automationFramework.dice.com.LoginTest -->
+      <class name="automationFramework.dice.com.FirstTest">
+        <test-method status="PASS" signature="setupMethod(java.lang.String)[pri:0, instance:automationFramework.dice.com.FirstTest@e45f292]" name="setupMethod" is-config="true" duration-ms="4808" started-at="2018-07-11T13:19:02Z" finished-at="2018-07-11T13:19:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method status="PASS" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:automationFramework.dice.com.FirstTest@e45f292]" name="setUpClass" is-config="true" duration-ms="0" started-at="2018-07-11T13:19:02Z" finished-at="2018-07-11T13:19:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@59d4cd39]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="firstTestMethod()[pri:0, instance:automationFramework.dice.com.FirstTest@e45f292]" name="firstTestMethod" duration-ms="8151" started-at="2018-07-11T13:19:06Z" finished-at="2018-07-11T13:19:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstTestMethod -->
+        <test-method status="PASS" signature="tearDownMethod()[pri:0, instance:automationFramework.dice.com.FirstTest@e45f292]" name="tearDownMethod" is-config="true" duration-ms="1403" started-at="2018-07-11T13:19:15Z" finished-at="2018-07-11T13:19:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+      </class> <!-- automationFramework.dice.com.FirstTest -->
+      <class name="automationFramework.dice.com.SecondTest">
+        <test-method status="PASS" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:automationFramework.dice.com.SecondTest@5f2108b5]" name="setUpClass" is-config="true" duration-ms="0" started-at="2018-07-11T13:19:16Z" finished-at="2018-07-11T13:19:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@59d4cd39]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="setupMethod(java.lang.String)[pri:0, instance:automationFramework.dice.com.SecondTest@5f2108b5]" name="setupMethod" is-config="true" duration-ms="5462" started-at="2018-07-11T13:19:16Z" finished-at="2018-07-11T13:19:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method status="PASS" signature="secondTestMethod()[pri:0, instance:automationFramework.dice.com.SecondTest@5f2108b5]" name="secondTestMethod" duration-ms="3516" started-at="2018-07-11T13:19:21Z" finished-at="2018-07-11T13:19:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- secondTestMethod -->
+        <test-method status="PASS" signature="tearDownMethod()[pri:0, instance:automationFramework.dice.com.SecondTest@5f2108b5]" name="tearDownMethod" is-config="true" duration-ms="1374" started-at="2018-07-11T13:19:25Z" finished-at="2018-07-11T13:19:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+      </class> <!-- automationFramework.dice.com.SecondTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

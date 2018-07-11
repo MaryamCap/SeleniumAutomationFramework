@@ -1,13 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <parameter name="browser" value="chrome"/>
   <test name="Default test(failed)">
     <classes>
-      <class name="automationFramework.dice.com.FirstTest">
+      <class name="automationFramework.dice.com.LoginTest">
         <methods>
-          <include name="firstTestMethod"/>
+          <include name="setUpClass"/>
+          <include name="positiveLoginTest"/>
+          <include name="tearDownMethod"/>
+          <include name="setupMethod"/>
         </methods>
-      </class> <!-- automationFramework.dice.com.FirstTest -->
+      </class> <!-- automationFramework.dice.com.LoginTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
