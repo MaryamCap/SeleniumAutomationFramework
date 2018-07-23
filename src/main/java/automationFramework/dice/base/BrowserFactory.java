@@ -13,7 +13,7 @@ public class BrowserFactory {
 		log.info("Starting" + browser + "driver");
 		switch (browser) {
 		case "firefox":
-			System.setProperty("webdriver.gecko.driver", "");
+			System.setProperty("webdriver.gecko.driver", "C:/webdriver/geckodriver.exe");
 			driver = new FirefoxDriver();
 			break;
 		case "chrome":
@@ -21,7 +21,7 @@ public class BrowserFactory {
 			driver = new ChromeDriver();
 			break;
 		default:
-			System.setProperty("webdriver.gecko.driver", "");
+			System.setProperty("webdriver.gecko.driver", "C:/webdriver/geckodriver.exe");
 			driver = new FirefoxDriver();
 			break;
 		}
