@@ -8,7 +8,7 @@
 		<listener class-name="automationFramework.dice.base.TestListener" />
 	</listeners>
 
-	<test name="LoginTest-FF">
+<!--	<test name="LoginTest-FF">
 		<parameter name="browser" value="firefox" />
 		<classes>
 			<class name="automationFramework.dice.com.HomePageTest">
@@ -18,7 +18,7 @@
 			</class>
 		</classes>
 	</test>
-
+-->
 	<test name="LoginTest-CH">
 		<parameter name="browser" value="chrome" />
 		<classes>
